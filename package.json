@@ -1,0 +1,19 @@
+{
+  "name": "happygrunt",
+  "version": "0.2.0",
+  "description": "My person homepage with some bloggy stuff",
+  "main": "index.js",
+  "dependencies": {
+    "hexo": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tommy",
+    "happygrunt"
+  ],
+  "author": "Tommy Wu",
+  "license": "ISC"
+}
