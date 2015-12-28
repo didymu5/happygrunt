@@ -1,21 +1,19 @@
 {
-  "name": "happygrunt",
-  "version": "0.1.0",
-  "description": "My person homepage with some bloggy stuff",
-  "main": "index.js",
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
+  "hexo": {
+    "version": "3.1.1"
+  },
   "dependencies": {
-    "hexo": "^3.1.1"
-  },
-  "devDependencies": {
-    "hexo": "^3.1.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "tommy",
-    "happygrunt"
-  ],
-  "author": "Tommy Wu",
-  "license": "ISC"
+    "hexo": "^3.1.0",
+    "hexo-generator-archive": "^0.1.2",
+    "hexo-generator-category": "^0.1.2",
+    "hexo-generator-index": "^0.1.2",
+    "hexo-generator-tag": "^0.1.1",
+    "hexo-renderer-ejs": "^0.1.0",
+    "hexo-renderer-stylus": "^0.3.0",
+    "hexo-renderer-marked": "^0.2.4",
+    "hexo-server": "^0.1.2"
+  }
 }
